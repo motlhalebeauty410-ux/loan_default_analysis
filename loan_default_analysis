@@ -1,0 +1,41 @@
+# Loan Default Risk Dashboard
+
+# Project Overview
+
+This Shiny dashboard visualizes **loan default risk** and helps lenders or analysts identify high-risk borrower segments. It provides insightful, interactive visualizations** of borrower demographics, loan characteristics, and repayment patterns.
+
+Key Objective: Help lenders understand default patterns and make informed decisions based on borrower data.
+
+
+
+# Features
+
+# Overview
+- Total Defaults: Number of borrowers who defaulted  
+- Non-Defaults: Number of borrowers who repaid successfully  
+- Default Rate: Percentage of loans that defaulted  
+- Default Distribution Plot: Visualizes the proportion of defaults  
+
+# Demographics Analysis
+-Default by Gender: Identifies if default risk varies by gender  
+-Default by Age Group: Highlights risk patterns among different age groups  
+-Default by Education: Shows impact of education level on loan repayment  
+
+#Loan Analysis
+ -Default by Loan Size: Determines if larger loans are riskier  
+ -Past Due Days vs Default: Shows relationship between delinquency and loan default  
+
+# Technical Details
+- Built with R Shiny and Shinydashboard
+- Visualizations created using ggplot2
+- Data is pre-cleaned and pre-processed in loan_cleaned.csv  
+- Designed for interactive exploration
+
+
+#Installation & Setup
+
+1. Clone the repository:
+
+bash
+git clone https://github.com/yourusername/loan-default-dashboard.git
+v
